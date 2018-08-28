@@ -27,13 +27,6 @@
                 <strong>Tags</strong><br>
                 {{ range .Params.tags }}<a class="label label-default" href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}
                 <hr>
-                <div class="contributes">
-                    <strong>Contributors</strong><br>
-                    {{ range .GitInfo }}
-                        <div class="contributor">
-                        </div>
-                    {{ end }}
-                </div>
             </div>
             {{ partial "menu.html" . }}
         </div>
