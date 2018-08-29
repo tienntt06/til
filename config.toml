@@ -21,4 +21,8 @@ disqusShortname = "shortname"
 
 [[params.social]]
     url = "https://12bit.vn"
-    fa_icon = "fa-globe-americas"
+    fa_icon = "fa-globe"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
