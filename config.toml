@@ -15,18 +15,10 @@ disqusShortname = "shortname"
   description = "Little things learned everyday"
   author = "12bit.vn"
 
-[params.highlight]
-    style = "github"
-    languages = ["go", "dockerfile"]
-
 [[params.social]]
-    url = "https://github.com/tanksuzuki"
+    url = "https://github.com/12bitvn"
     fa_icon = "fa-github"
 
 [[params.social]]
-    url = "https://twitter.com/tanksuzuki"
-    fa_icon = "fa-twitter"
-
-[[params.social]]
-    url = "/index.xml"
-    fa_icon = "fa-rss"
+    url = "https://12bit.vn"
+    fa_icon = "fa-globe-americas"
